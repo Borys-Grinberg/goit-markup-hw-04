@@ -529,6 +529,10 @@ height: 40px;
    gap: 16px;
 }
 
+.vector-footer {
+    fill: var(--button-background);
+}
+
 .social-icon-footer {
     display: flex;
     width: 40px;
