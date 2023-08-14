@@ -511,8 +511,8 @@ background-color: var(--hover-color);
 
 /*================= SVG =================*/
 .vector-image {
-    width: 16px;
-    height: 16px;
+    width: 16;
+    height: 16;
 }
 
 
