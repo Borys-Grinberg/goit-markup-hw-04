@@ -128,15 +128,29 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: var(--hover-color);
 }
 
+
+
+
+/*================= pseudoelement ==========*/
+
+.menu-item {
+    position: relative;
+}
+
 .menu-item::after {
     display:block;
     content: '';
     position: absolute;
     left: 0;
-    bottom: -1px;
+    
+    bottom: -26px;
+    width: 100%;
     height: 4px;
     border-radius: 2px;
     background-color: var(--hover-color);
+
+    
+    
 }
 
 
@@ -670,11 +684,11 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .div-project-cards-link-wrapper {
     position: relative;
-    overflow:hidden;
+    overflow: hidden;
 
 }
 
-.project-cards-link:hover, .project-cards-link:focus .overlay {
+.div-project-cards-link-wrapper:hover .overlay {
     transform: translatey(0%);
 }
 /*
