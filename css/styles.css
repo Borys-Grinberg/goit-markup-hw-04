@@ -770,7 +770,7 @@ fill: var(--white);
 .close-button-icon {
     stroke: var(--text-color);
     border-radius: 50%;
-    background-color: var(--header-underline);
+    background-color: #e7e9fc;
     border: 1px solid rgba(0, 0, 0, 0.1);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
