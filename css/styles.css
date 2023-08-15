@@ -87,7 +87,7 @@ button {
 
 
 .menu-item-link {
-    color: var(--text-color);
+    color: var(--hover-color);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
